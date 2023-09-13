@@ -1,0 +1,22 @@
+---
+- mystud :
+  - name : anil
+    phone: 2222222222
+    address: 
+      door_no:
+      street_no:
+      pin code:
+
+  - name : deepak
+    phone: 2222222222
+    address: 
+      door_no:
+      street_no:
+      pin code:
+
+  - name : sunil
+    phone: 2222222222
+    address: 
+      door_no:
+      street_no:
+      pin code:
