@@ -11,4 +11,9 @@
     apt:
       name: git
       state: present
+      
+  - name: third step is to install wget
+    apt:
+      name: wget
+      state: present
   
