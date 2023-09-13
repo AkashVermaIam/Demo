@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: i want to install apache 2 ubanatu webserver
+    apt:
+      name: apache2
+      state: present
+  
+  - name: I want to run apache2 in ansible ubantu node 
+    apt: 
+      name: apache2
+      state: started
