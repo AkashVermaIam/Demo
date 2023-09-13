@@ -8,6 +8,6 @@
       state: present
   
   - name: I want to run apache2 in ansible ubantu node 
-    apt: 
+    service: 
       name: apache2
       state: started
