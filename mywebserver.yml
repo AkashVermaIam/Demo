@@ -22,7 +22,7 @@
     when: ansible_os_family == "RedHat"
 
   - name: I want to run ansible webserver on redhat machine
-    dnf: 
+    service : 
       name: httpd
       state: started
     when: ansible_os_family == "RedHat"
