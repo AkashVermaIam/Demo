@@ -14,3 +14,15 @@
       name: apache2
       state: started
     when: ansible_os_family == "Debian"
+
+  - name: I want to install webserver on ansible redhat machine
+    dnf:
+      name: httpd
+      state: present
+    when: ansible_os_family == "RedHat"
+
+  - name: I want to run ansible webserver on redhat machine
+    dnf: 
+      name: httpd
+      state: started
+    when: ansible_os_family == "RedHat"
